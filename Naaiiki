@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Satorna | 角色索引</title>
+    <link rel="icon" href="https://satorna.github.io/image/webIcon.png"/>
+	<link rel="stylesheet" href="https://satorna.github.io/css/nav.css"/>
+	<link rel="stylesheet" href="https://satorna.github.io/css/footer.css"/>
+	<link rel="stylesheet" href="https://satorna.github.io/css/homePicArea.css"/>
+	<script src="https://satorna.github.io/js/main.js"></script>
+    <script src="file:///C:/Users/dell/Desktop/编程/代码岛/DornGames/SATORNA/js/RoleData.js"></script>
+    <style>
+    @charset "utf-8";
+    #navbut2{
+        font-weight:900;
+		color:white;
+		font-weight:900;
+		border: 2px solid #fff;
+		box-shadow: 0 0 10px rgba(30,144,255,0.25),
+        	0 0 20px rgba(30,144,255,0.25),  
+        	0 0 30px rgba(30,144,255,0.25),  
+        	0 0 40px rgba(30,144,255,0.25),        
+        	0 0 100px rgba(30,144,255,0.25),  
+        	0 0 200px rgba(30,144,255,0.25),  
+        	0 0 300px rgba(30,144,255,0.1),  
+        	0 0 400px rgba(30,144,255,0.05);
+		border-image: linear-gradient(to top right, #1565c0, #000, #1565c0) 3;
+    }
+    body{
+		width:100%;
+		height:100%;
+		background-color:rgb(211,218,224);
+    	justify-content: center;
+    	align-items: center;
+	}
+	::-webkit-scrollbar {
+    display: none;
+}
+	button:hover{cursor:pointer;}
+	#text{
+		font-weight:100;
+		color:black;
+	}
+	sup{font-size:10px;}
+	#title{line-height:0px;}
+	/*#texte{margin-left:15%;}*/
+	#title_don{font-size:40px;}
+	#title_chi{font-size:30px;}
+	#texte_don{font-size:18px;text-indent:24px;}
+	#texte_chi{font-size:15px;text-indent:24px;}
+	#bottom_div{
+		background-color:#00000133;
+		text-align:center;
+		width:100%;
+		color:rgb(255, 255, 255);
+		font-size:15px;
+		-webkit-text-stroke: 0.2px rgba(65, 92, 227, 0.651);
+	}
+	a{text-decoration:none;color:rgb(255, 255, 255);text-shadow: 2px 2px 5px rgba(255,144,155,0.5);}
+	#br{height:5px;}
+	#bg{
+        position: fixed;top: 50px;left: 0;z-index: -1;
+        width: 100%;height: 100%;-o-object-fit: cover;
+        object-fit: cover;-webkit-filter: blur(0px);
+        filter: blur(0px);-webkit-transform: scale(1);transform: scale(1);
+    }
+	.intro{
+		
+		width:50%;
+		margin:left;padding: 10px;
+        margin-left: 25px;
+		/*border:3px solid #1e90ff;
+        box-shadow: 0 0 10px rgba(30,144,255,0.25),
+        	0 0 20px rgba(30,144,255,0.25),  
+        	0 0 30px rgba(30,144,255,0.25),  
+        	0 0 40px rgba(30,144,255,0.25),        
+        	0 0 100px rgba(30,144,255,0.25),  
+        	0 0 200px rgba(30,144,255,0.25),  
+        	0 0 300px rgba(30,144,255,0.1),  
+        	0 0 400px rgba(30,144,255,0.05);
+		border-image: linear-gradient(to top right, #1565c0, #000, #1565c0) 3;*/
+	}
+	#homeImg{
+		border-radius:20px;
+	}
+	#lines{
+		height:0px;
+		border:0.01px solid rgba(255,255,255,0.2);
+		width:100%;
+	}
+	#tools{
+		line-height:0px;
+		border:none;
+		height:70px;
+		background-color:transparent;
+		width:100%;
+	}
+	#tools p{margin-bottom:25px;}
+	#tools_explain{margin-left:30px;color:rgb(100,100,100);font-size:15px;}
+	#tools_name{margin-left:30px;color:white;font-size:25px;}
+	#tools_name a:hover{color:rgb(102,153,255);}
+	#homeImg{cursor:pointer;}
+	#copyright{text-align:center;line-height: 10px;font-weight: 100;}
+	#introduce{height:150px;}
+	#introduce span{font-weight:600;}
+    #errorImg{
+		border-radius:200px;
+		box-shadow: 0 0 10px rgba(30,144,255,0.25),
+        	0 0 20px rgba(30,144,255,0.25),  
+        	0 0 30px rgba(30,144,255,0.25),  
+        	0 0 40px rgba(30,144,255,0.25),        
+        	0 0 100px rgba(30,144,255,0.25),  
+        	0 0 200px rgba(30,144,255,0.25);
+        width: 15%;
+        height: 15%;
+        display: none;
+	}
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+        }
+
+        #selector{
+            margin-left: 35px;
+        }
+        #slct_title{
+            color: rgb(50,50,50);
+            text-align: center;
+            font-weight: 900;
+            font-size: 22px;
+        }
+        #slct_text{
+            color: rgb(50,50,50);
+            font-weight: 100;
+        }
+        #slct_text span{
+            font-size: 14px;
+            padding: 5px;
+            border-radius: 5px;
+            border: 0.5px solid rgb(50,50,50);
+            margin-right: 10px;
+        }
+        #slct_text span:hover{
+            cursor: pointer;
+            background: rgb(50,50,50);
+            color: white;
+        }
+    #lines2{
+		height:0px;
+		border:0.01px solid rgba(50,50,50,0.07);
+		width:auto;
+	}
+    #scndctn{
+        letter-spacing: 1px;
+        font-weight: 100;
+        margin-left: 20px;
+        margin-right: 35px;
+    }
+    #scndctn_main{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    #scndctn_main p{
+        width: 100%;
+    }
+    #scndctn:hover{
+        background: linear-gradient(to right, rgba(50,50,50,0.05), rgba(50,50,50,0));
+    }
+    #scndctn img{
+        width: 45px;
+        height: 45px;
+        border-radius: 20px;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #path{
+        margin-left: 35px;
+        color:rgb(100,100,100);
+        font-weight: 100;
+        font-size: 12px;
+    }
+    #path span:hover{
+        font-weight: 400;
+    }
+    #header{
+        position: relative;
+        margin-left: 35px;
+        margin-right: 55px;
+        width: auto;
+    }
+    #header_bg{
+        position: relative;
+        top: 0px;
+        width: 100%;
+        z-index: -1000;
+        border-radius: 6px;
+    }
+    #role_intro{
+        font-weight: 100;
+        color: white;
+        position: relative;
+        top: -320px;
+    }
+    #role_name{
+        margin-left: 30px;
+        font-size: 35px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        text-shadow:2px 2px rgba(255,144,155,0.5);
+    }
+    #role_stars{
+        margin-left: 30px;
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        color: rgba(255,144,155,1);
+        text-shadow:2px 2px rgba(30,144,255,0.25);
+    }
+    #role_detail{
+        margin-left: 30px;
+        letter-spacing: 1px;
+    }
+    #role_dt1{
+        background-color: rgba(14, 26, 36, 1);
+        padding: 6px;
+        display:inline-block;
+        border-radius: 6px;
+        box-shadow:2px 2px rgba(255,144,155,0.25);
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <br>
+
+    <div id="nav">
+        <p>
+            <span id="navname1"><img src="https://satorna.github.io/image/TransparentLogo.png" id="logo" onclick="location.reload();"/></span>
+            &nbsp;&nbsp;
+            <button id="navbut1" onclick="window.open('https://satorna.github.io/','_self')">首页</button>
+            <button id="navbut2" onclick="window.open('https://satorna.github.io/role','_self')">角色</button>
+            <button id="navbut3" onclick="window.open('https://satorna.github.io/weapon','_self')">武器</button>
+            <button id="navbut4" onclick="window.open('https://satorna.github.io/material','_self')">物资</button>
+            <button id="navbut5" onclick="window.open('https://satorna.github.io/world','_self')">世界</button>
+            <button id="navbut6" onclick="window.open('https://satorna.github.io/litart','_self')">文艺馆</button>
+            <div>
+                <button id="navbut_user" onclick="window.open('https://satorna.github.io/login','_self')">社 区</button>
+                <button id="navName2" onclick="window.open('https://satorna.github.io/login','_self')"><img src="https://satorna.github.io/image/account_ui.png" id="loginLogo" onclick=""/></button>
+            </div>
+        </p>
+    </div>
+
+    <br><br>
+    <div id="path">
+    </div>
+    <div id="header">
+        
+    </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <footer id="bottom_div">
+            <div id="br"></div><div id="br"></div><div id="br"></div>
+            <div id="introduce">
+                <div id="intro_left_1st">
+                    <div id="br"></div><div id="br"></div>
+                    <img src="https://satorna.github.io/image/webIcon.png"/>
+                    <img src="https://satorna.github.io/image/TransparentLogo.png" id="footer_logo"/>
+                    <p>开 放 世 界 科 幻 游 戏</p>
+                    <div id="br"></div>
+                </div>
+                <div id="intro_left_2st">
+                    <p>
+                    <span>游戏攻略</span><br>
+                    <a href="https://satorna.github.io/intro/survivalwt.html">● 生存指南</a><br>
+                    <a href="https://satorna.github.io/intro/travelwt.html">● 旅行指南</a><br>
+                    <a href="https://satorna.github.io/intro/extrawt.html">● 进阶教程</a><br>
+                    </p>
+                    <div id="br"></div>
+                </div>
+                <div id="intro_left_3st">
+                    <p>
+                    <span>关于我们</span><br>
+                    <a href="https://satorna.github.io/intro/gameintro.html">● 游戏介绍</a><br>
+                    <a href="https://satorna.github.io/intro/groupintro.html">● 团队介绍</a><br>
+                    </p>
+                    <div id="br"></div>
+                </div>
+                <div id="intro_left_4st">
+                    <p>
+                    <span>服务协议</span><br>
+                    <a href="https://satorna.github.io/seragr/eula.html">● 用户协议</a><br>
+                    <a href="https://satorna.github.io/seragr/disclaimer.html">● 免责声明</a><br>
+                    </p>
+                    <div id="br"></div>
+                </div>
+            </div>
+            <div id="lines"></div>
+            <div id="copyright">
+                <div id="br"></div>
+                <p>健康游戏忠告：抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。</p>
+                <p>版权所有 © 2024 多恩星环DornGames   |   All right reserved.</p>
+                <p>Box3Pro : <a href="https://dao3.fun/profile/50450184">@DornGames</a> | Github : <a href="https://github.com/satorna">@satorna</a></p>
+                <div id="br"></div>
+            </div>
+        </footer>
+
+</body>
+
+<script>
+var keyWord = (window.location.href).split('/');//取网址，切割
+keyWord = keyWord[keyWord.length-1];//取网址最后一位
+keyWord = keyWord.split(`.`);//按照字符"."分隔
+keyWord = keyWord[0];//获取真正的网页名
+var role = roleData.filter(x => x.name == keyWord)[0];
+document.getElementById('path').innerHTML = `
+<p>路径：
+            <span onclick="window.open('index.html')">角色</span>  >>  <span>${keyWord}</span>
+        </p>`;
+var s = ``;
+for(var j=0;j<role.level;j++){
+    s += '✦';
+}
+document.getElementById('header').innerHTML = `<img id="header_bg" src="file:///C:/Users/dell/Desktop/编程/代码岛/DornGames/SATORNA/图片/人物介绍背景/bg_${keyWord}.jpg">
+        <div id="role_intro">
+            <p id="role_name">${keyWord}<span id="role_stars">${s}</span></p>
+            <div id="role_detail">
+                <div id="role_dt1">生日：${role.headerInfo.birthday}</div>
+                <div id="role_dt1">星象：${role.headerInfo.astrology}</div><br>
+                <div id="role_dt1">性别：${role.headerInfo.sex}</div>
+                <div id="role_dt1">神兽：${role.headerInfo.animal}</div><br>
+                <div id="role_dt1">专武：${role.headerInfo.weapon}</div>
+                <div id="role_dt1">地区：${role.headerInfo.region}</div>
+            </div>
+        </div>`;
+</script>
+
+</html>
